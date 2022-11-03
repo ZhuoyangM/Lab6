@@ -164,7 +164,7 @@ class RecipeCard extends HTMLElement {
     let rating=article.querySelector(".rating");
     rating.getElementsByTagName("span")[0].textContent=data["rating"];
     rating.getElementsByTagName("span")[1].textContent=data["numRatings"];
-    rating.querySelector("img").src="/assets/images/icons/"+data['rating']+"-star.svg";
+    rating.querySelector("img").src="./assets/images/icons/"+data['rating']+"-star.svg";
     rating.querySelector("img").alt=data["rating"]+" stars";
 
     article.querySelector("time").textContent=data["lengthTime"];
