@@ -148,7 +148,7 @@ class RecipeCard extends HTMLElement {
       <p class="organization">The Chef's Organization</p>
       <div class="rating">
         <span>5</span>
-        <img src="/assets/images/icons/5-star.svg" alt="5 stars">
+        <img src="./assets/images/icons/5-star.svg" alt="5 stars">
         <span>(500)</span>
       </div>
       <time>50 min</time>
